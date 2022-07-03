@@ -1,0 +1,26 @@
+body {
+  background-color: whitesmoke;
+}
+ul {
+  list-style-position: inside;
+  list-style-image: url(unchecked_16.png);
+  padding-right: 100px;
+  text-indent: 30px;
+}
+.odd {
+  background-color: skyblue;
+  padding: 10px;
+}
+.even {
+  background-color: lightblue;
+  padding: 10px;
+}
+.done {
+  list-style-image: url(checked_16.png);
+  background-color: gainsboro;
+}
+li:after {
+  color: darkred;
+  content: "✖";
+  padding-left: 20px;
+}

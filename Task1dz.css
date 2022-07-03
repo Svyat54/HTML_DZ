@@ -1,0 +1,28 @@
+.td {
+  padding: 10px;
+  background-color: rgb(237, 158, 174);
+}
+ol {
+  padding: 0;
+  list-style: none;
+  counter-reset: item;
+  background-color: rgb(237, 158, 174);
+}
+li::before {
+  content: counter(item) ".";
+  color: #fff;
+}
+
+li {
+  color: #fff;
+  margin-bottom: 10px;
+  background-color: rgb(198, 99, 118);
+  padding: 10px 0 10px 15px;
+  counter-increment: item;
+}
+
+span {
+  margin-left: 15px;
+  padding: 10px;
+  background-color: rgb(158, 53, 74);
+}

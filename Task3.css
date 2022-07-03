@@ -1,0 +1,18 @@
+.cont {
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  background: rgb(245, 245, 245);
+}
+.blue {
+  color: rgb(60, 59, 189);
+}
+.grey {
+  color: rgb(159, 145, 137);
+}
+.fat {
+  color: rgb(128, 122, 119);
+}
+.H1 {
+  font-size: 20px;
+}
